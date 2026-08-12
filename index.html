@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amani Family Clinic — Nairobi</title>
+<meta name="description" content="Amani Family Clinic in Nairobi — same-day appointments, family medicine, and a care team that knows your name.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="#top">Amani <span>Family Clinic</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Services</a>
+      <a href="#doctors">Our Doctors</a>
+      <a href="#appointment">Book a Slot</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">Kileleshwa, Nairobi</p>
+      <h1>Family medicine that remembers your name, not just your file number.</h1>
+      <p class="hero-sub">Walk-in or book ahead — our care team sees most patients the same day, every weekday from 7am to 8pm.</p>
+      <div class="hero-actions">
+        <a href="#appointment" class="btn btn-primary">Book your slot</a>
+        <a href="#services" class="btn btn-ghost">See our services</a>
+      </div>
+    </div>
+    <div class="queue-card" aria-label="Today's queue status">
+      <p class="queue-label">Next available today</p>
+      <p class="queue-number">No. 014</p>
+      <p class="queue-wait">~15 min wait · General Consultation</p>
+      <div class="queue-stub"></div>
+    </div>
+  </section>
+
+  <section id="services" class="services wrap">
+    <h2>Care lines</h2>
+    <p class="section-intro">Every department runs its own queue, so you're only ever waiting behind the patients ahead of you for that service.</p>
+    <ol class="service-list">
+      <li>
+        <span class="service-code">GC</span>
+        <div>
+          <h3>General Consultation</h3>
+          <p>Same-day appointments for everyday illness, check-ups, and referrals.</p>
+        </div>
+      </li>
+      <li>
+        <span class="service-code">MC</span>
+        <div>
+          <h3>Maternal &amp; Child Health</h3>
+          <p>Antenatal care, immunisations, and growth monitoring for under-fives.</p>
+        </div>
+      </li>
+      <li>
+        <span class="service-code">DL</span>
+        <div>
+          <h3>Diagnostics &amp; Lab</h3>
+          <p>On-site blood work, malaria testing, and rapid results within the hour.</p>
+        </div>
+      </li>
+      <li>
+        <span class="service-code">DN</span>
+        <div>
+          <h3>Dental</h3>
+          <p>Cleanings, fillings, and extractions with a same-week booking window.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="doctors" class="doctors wrap">
+    <h2>Meet the care team</h2>
+    <div class="doctor-grid">
+      <article class="doctor-card">
+        <div class="doctor-photo" style="background:#D9A441"></div>
+        <h3>Dr. Wanjiru Kamau</h3>
+        <p class="doctor-role">Family Medicine</p>
+        <p>12 years in community practice across Nairobi.</p>
+      </article>
+      <article class="doctor-card">
+        <div class="doctor-photo" style="background:#7C9A88"></div>
+        <h3>Dr. Otieno Ochieng</h3>
+        <p class="doctor-role">Paediatrics</p>
+        <p>Focused on child health from newborn through adolescence.</p>
+      </article>
+      <article class="doctor-card">
+        <div class="doctor-photo" style="background:#B96A4F"></div>
+        <h3>Dr. Amina Yusuf</h3>
+        <p class="doctor-role">Dental Surgery</p>
+        <p>Runs our same-week dental clinic on Tues, Thu &amp; Sat.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="appointment" class="appointment wrap">
+    <div class="ticket">
+      <div class="ticket-top">
+        <p class="eyebrow">Reserve a place in line</p>
+        <h2>Book your slot</h2>
+      </div>
+      <form id="appointment-form" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="07xx xxx xxx" required>
+        </div>
+        <div class="field">
+          <label for="service">Care line</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Choose a service</option>
+            <option value="general">General Consultation</option>
+            <option value="maternal">Maternal &amp; Child Health</option>
+            <option value="lab">Diagnostics &amp; Lab</option>
+            <option value="dental">Dental</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date">Preferred date</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Request appointment</button>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="contact wrap">
+    <h2>Find us</h2>
+    <div class="contact-grid">
+      <div>
+        <p><strong>Address</strong><br>Ring Road, Kileleshwa, Nairobi</p>
+        <p><strong>Phone</strong><br>+254 700 000 000</p>
+        <p><strong>Hours</strong><br>Mon–Sat, 7:00am – 8:00pm</p>
+      </div>
+      <div class="map-placeholder" aria-hidden="true">Map</div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Amani Family Clinic. Built as part of the IS-PROJECT-2026 Git Workflow Challenge.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -51,6 +51,7 @@ a { color: inherit; }
 .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 600; color: var(--clay); }
 .hero-sub { font-size: 1.1rem; max-width: 42ch; }
 .hero-actions { display: flex; gap: 14px; margin-top: 8px; }
+.hero-trust { font-size: .85rem; color: var(--teal-700); font-weight: 600; margin: 14px 0 0; }
 
 .btn { display: inline-block; padding: 12px 22px; border-radius: var(--radius); text-decoration: none; font-weight: 600; font-size: .95rem; border: 1px solid transparent; cursor: pointer; }
 .btn-primary { background: var(--teal-900); color: var(--cream); }

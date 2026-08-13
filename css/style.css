@@ -89,9 +89,15 @@ a { color: inherit; }
 /* Doctors */
 .doctors { padding: 64px 24px; background: var(--sage); }
 .doctor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 32px; }
-.doctor-card { background: var(--cream); border-radius: var(--radius); padding: 20px; }
+.doctor-card { position: relative; background: var(--cream); border-radius: var(--radius); padding: 20px; }
 .doctor-photo { width: 100%; aspect-ratio: 4/3; border-radius: var(--radius); margin-bottom: 14px; }
 .doctor-role { color: var(--clay); font-weight: 600; font-size: .9rem; }
+.doctor-years {
+  position: absolute; top: 32px; right: 32px;
+  background: var(--teal-900); color: var(--cream);
+  font-size: .75rem; font-weight: 600;
+  padding: 3px 9px; border-radius: 999px;
+}
 
 /* Appointment */
 .appointment { padding: 72px 24px; display: flex; justify-content: center; }

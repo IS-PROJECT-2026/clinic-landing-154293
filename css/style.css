@@ -124,7 +124,8 @@ input:focus, select:focus { outline: 2px solid var(--gold); outline-offset: 1px;
 /* Contact */
 .contact { padding: 64px 24px 88px; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 24px; }
-.map-placeholder { background: var(--sage); border-radius: var(--radius); min-height: 220px; display: flex; align-items: center; justify-content: center; color: rgba(23,63,53,.5); font-weight: 600; }
+.map-placeholder { background: var(--sage); border-radius: var(--radius); min-height: 220px; display: flex; align-items: center; justify-content: center; }
+.map-link { color: var(--teal-900); font-weight: 600; text-decoration: underline; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 24px; text-align: center; font-size: .85rem; color: rgba(27,27,22,.6); }

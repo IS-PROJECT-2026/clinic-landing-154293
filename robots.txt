@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://is-project-2026.github.io/clinic-landing-154293/sitemap.xml

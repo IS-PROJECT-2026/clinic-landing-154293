@@ -145,3 +145,12 @@ input:focus, select:focus { outline: 2px solid var(--gold); outline-offset: 1px;
 @media (prefers-reduced-motion: no-preference) {
   .btn { transition: background-color .15s ease; }
 }
+
+/* Print styles for the appointment ticket */
+@media print {
+  .site-header, .site-footer, .hero, .services, .doctors, .contact, .nav-toggle {
+    display: none;
+  }
+  .appointment { padding: 0; }
+  .ticket { border: 1px solid #000; box-shadow: none; }
+}

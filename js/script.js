@@ -18,6 +18,10 @@ mainNav.querySelectorAll('a').forEach((link) => {
 // Appointment form validation (client-side only — no backend yet)
 const form = document.getElementById('appointment-form');
 const status = document.getElementById('form-status');
+const dateInput = form.date;
+
+// Don't let the picker offer dates before today
+dateInput.min = new Date().toISOString().split('T')[0];
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();

@@ -1,9 +1,14 @@
 # Mini-Project Git Workflow Challenge — Submission
 
-> **Note:** I only had Sections 3–5 of the assignment's submission.md template
-> available when drafting this. Sections 1 and 2 (project overview / technical
-> questions, if the resources repo has them) still need to be copied in from
-> the resources repository template before final submission.
+## 1. Student Details
+
+* Full Name: Abuga Eugene Mogeni
+* GitHub Username: abugaeugene
+* Email: abugaeugene@gmail.com
+
+## 2. Deployed Project Link
+
+* Live GitHub Pages URL: https://is-project-2026.github.io/clinic-landing-154293/
 
 ## 3. Reflection — Grounded in Your Git History
 

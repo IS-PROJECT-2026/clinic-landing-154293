@@ -7,6 +7,14 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', String(isOpen));
 });
 
+// Close the mobile menu once a nav link is tapped
+mainNav.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => {
+    mainNav.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  });
+});
+
 // Appointment form validation (client-side only — no backend yet)
 const form = document.getElementById('appointment-form');
 const status = document.getElementById('form-status');

@@ -5,8 +5,7 @@ professional-grade Git and GitHub workflow: milestone planning, issue tracking, 
 branches, conventional commits, code review via pull requests, engineered merge conflict
 resolution, and CI/CD deployment through GitHub Pages.
 
-**Live site:** https://IS-PROJECT-2026.github.io/clinic-landing-<your-admission-number>/
-*(update this link once Pages is live — see Day 1 checklist)*
+**Live site:** https://is-project-2026.github.io/clinic-landing-154293/
 
 ## What it does
 
@@ -32,8 +31,8 @@ and task history.
 Static site — no build step required.
 
 ```bash
-git clone https://github.com/IS-PROJECT-2026/clinic-landing-<your-admission-number>.git
-cd clinic-landing-<your-admission-number>
+git clone https://github.com/IS-PROJECT-2026/clinic-landing-154293.git
+cd clinic-landing-154293
 open index.html   # or use a local server, e.g. `python3 -m http.server`
 ```
 

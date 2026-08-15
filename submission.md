@@ -61,29 +61,34 @@ https://github.com/IS-PROJECT-2026/clinic-landing-154293/pull/11
 
 ### A. Milestones and Issues
 
-[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
+<img width="2940" height="1674" alt="image" src="https://github.com/user-attachments/assets/0f027c44-3c6c-4aca-9738-1db34caec9b3" />
 
-Caption: Three milestones (Phase 1: Core page & content, Phase 2:
+
+<img width="2940" height="1896" alt="image" src="https://github.com/user-attachments/assets/697aad58-a9d3-489a-a204-f006e304cc8e" />
+
+Three milestones (Phase 1: Core page & content, Phase 2:
 Interactivity & UX, Phase 3: Deployment & docs) each with granular issues
 linked before development began.
 
 ### B. Project Board
 
-[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
+<img width="2940" height="1872" alt="image" src="https://github.com/user-attachments/assets/639ef2c1-6bd6-4205-b59c-ae3c5b9989f8" />
 
-Caption: [Describe your board's current column state here]
+
 
 ### C. Branching Architecture
 
-[PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/adc14bc4-01e1-4b9b-9525-fe77df11cb87" />
 
-Caption: Feature branches follow `feat/`, `fix/`, `style/`, `chore/`, and
+Feature branches follow `feat/`, `fix/`, `style/`, `chore/`, and
 `docs/` naming tied to their issue numbers (e.g. `feat/9-form-validation-polish`,
 `chore/23-remove-legacy-css`).
 
 ### D. Pull Requests & Traceability
 
-[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
+<img width="2940" height="1894" alt="image" src="https://github.com/user-attachments/assets/a3c416a8-3d0c-446d-ba0e-3414589be055" />
+
+<img width="2940" height="1878" alt="image" src="https://github.com/user-attachments/assets/07baebca-c28f-467d-8169-d2b35953212a" />
 
 Caption: [Pick one merged PR, e.g. PR #26, and describe the issue it closes]
 
@@ -97,27 +102,24 @@ same footer copyright `<p>` line with different wording, starting from the
 same base commit.
 
 **Step 1 — Generating the Clash**
-
-[PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
-
-Caption: Merging `main` (with the tagline change already merged) into
+Merging `main` (with the tagline change already merged) into
 `feat/15-footer-disclaimer` produced `CONFLICT (content): Merge conflict in
 index.html`.
 
 **Step 2 — Inside the Code Editor (Conflict Markers)**
-
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
-
-Caption: Both branches changed the same footer line — one added a tagline,
+Both branches changed the same footer line — one added a tagline,
 the other added a rights disclaimer. Resolved by keeping the rights
 disclaimer as the final wording, since it's the more standard footer
 convention for a real business site.
 
 **Step 3 — Resolution & Clean Merge**
+Resolved and merged via PR: https://github.com/IS-PROJECT-2026/clinic-landing-154293/pull/18
 
-[PASTE SCREENSHOT OF CLEAN RESOLUTION HERE]
+<img width="2940" height="1846" alt="image" src="https://github.com/user-attachments/assets/4187425b-1aa8-43b2-b915-451d0a9addf7" />
 
-Caption: Resolved and merged via PR: https://github.com/IS-PROJECT-2026/clinic-landing-154293/pull/18
+<img width="2940" height="1900" alt="image" src="https://github.com/user-attachments/assets/64433210-0cad-49b1-ad4b-96376fc65a6a" />
+
+
 
 ### Conflict 2 — Different Cause
 
@@ -130,9 +132,10 @@ deleted `css/style.css` entirely (exploring an inline-CSS approach) while
 shared line to merge, so it must ask a human to decide whether the file
 should exist at all.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 2 HERE]
+<img width="2940" height="1864" alt="image" src="https://github.com/user-attachments/assets/03bd95f9-63b1-4a8f-9341-9f007ee66c90" />
 
-Caption: No inline `<<<<<<<` markers appear for a modify/delete conflict —
+
+No inline `<<<<<<<` markers appear for a modify/delete conflict —
 the terminal warning (`CONFLICT (modify/delete): css/style.css deleted in
 HEAD and modified in main`) and `git status` showing `deleted by us:
 css/style.css` are the equivalent evidence. Resolved by keeping the file
@@ -150,9 +153,10 @@ Git has never seen before at that path, with different content — Git can't
 guess which version (or neither) is correct, so it surfaces both as a
 conflict rather than silently picking one.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 3 HERE]
+<img width="2920" height="1856" alt="image" src="https://github.com/user-attachments/assets/a17d2e44-6f26-413e-821b-97244241b9c0" />
 
-Caption: `robots.txt` conflict markers showing `Disallow: /` (HEAD) versus
+
+`robots.txt` conflict markers showing `Disallow: /` (HEAD) versus
 `Allow: /` plus a sitemap reference (origin/main). Resolved by keeping the
 allow-crawling version, since the site is already live and public. Merged
 via PR: https://github.com/IS-PROJECT-2026/clinic-landing-154293/pull/30
